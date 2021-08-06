@@ -16,13 +16,13 @@ const defaultConfig = {
 };
 
 const apiSettings = {
-  fetchMovies: async (searchTerm, page) => {
-    const endpoint = searchTerm
+  fetchMovies: async (searchTerm: string, page: number): Promise<Movies> => {
+    const endpoint: string = searchTerm
       ? `${SEARCH_BASE_URL}${searchTerm}&page=${page}`
       : `${POPULAR_BASE_URL}&page=${page}`;
     return await (await fetch(endpoint)).json();
   },
-  fetchMovie: async (movieId) => {
+  fetchMovie: async (movieId: string) => {
     const endpoint = `${API_URL}movie/${movieId}?api_key=${API_KEY}`;
     return await (await fetch(endpoint)).json();
   },
