@@ -15,4 +15,4 @@ Fully responsive web app and available in PWA app.
 
 ### PWA Demo
 
-<!-- ![Demo](./src/images/demos/demo.gif) -->
+![Demo](./src/images/demos/demo.gif)
