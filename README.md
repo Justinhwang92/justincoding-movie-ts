@@ -1,4 +1,4 @@
-# React Movie App with TypeScript
+# JC-React Movie App with TypeScript
 
 A website built for Movie app using React and TypeScript.
 Fully responsive web app and available in PWA app.
