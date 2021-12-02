@@ -18,15 +18,12 @@ export const useHomeFetch = () => {
   const [error, setError] = useState(false);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
 
-  // console.log(searchTerm);
-
   const fetchMovies = async (page: number, searchTerm = "") => {
     try {
       setError(false);
       setLoading(true);
 
       const movies = await API.fetchMovies(searchTerm, page);
-      // console.log(movies);
 
       setState((prev) => ({
         ...movies,
@@ -39,20 +36,16 @@ export const useHomeFetch = () => {
     setLoading(false);
   };
 
-  // console.log(state);
-
   // Initial render and search
   useEffect(() => {
     if (!searchTerm) {
       const sessionState = isPersistedState("homeState");
 
       if (sessionState) {
-        // console.log("Grabbing from sessionStorage");
         setState(sessionState);
         return;
       }
     }
-    // console.log("Grabbing from API");
     setState(initialState);
     fetchMovies(1, searchTerm);
   }, [searchTerm]); // re-render whenever serchTerm changes

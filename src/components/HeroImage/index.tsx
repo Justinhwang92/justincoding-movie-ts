@@ -9,7 +9,6 @@ type Props = {
 };
 
 const HeroImage: React.FC<Props> = ({ image, title, text }) => {
-  // console.log(image);
   return (
     <Wrapper image={image}>
       <Content>
