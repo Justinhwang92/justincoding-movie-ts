@@ -3,7 +3,7 @@
 A website built for Movie app using React and TypeScript.
 Fully responsive web app and available in PWA app.
 
-- Same project in JavaScript also available and active.
+- Same project in JavaScript also available and active. (https://github.com/Justinhwang92/justincoding-movie)
 
 ## Demos
 
