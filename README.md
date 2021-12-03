@@ -3,6 +3,8 @@
 A website built for Movie app using React and TypeScript.
 Fully responsive web app and available in PWA app.
 
+- Same project in JavaScript also available and active.
+
 ## Demos
 
 ### Web view

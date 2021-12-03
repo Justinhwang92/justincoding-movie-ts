@@ -7,6 +7,7 @@ type Props = {
   character: string;
   imageUrl: string;
 };
+
 const Actor: React.FC<Props> = ({ name, character, imageUrl }) => (
   <Wrapper>
     <Image src={imageUrl} alt="actor-thub" />
