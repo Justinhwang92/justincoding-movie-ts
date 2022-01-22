@@ -5,6 +5,8 @@ Fully responsive web app and available in PWA app.
 
 - Same project in JavaScript also available and active. (https://github.com/Justinhwang92/justincoding-movie)
 
+---
+
 ## Demos
 
 ### Web view
@@ -18,3 +20,11 @@ Fully responsive web app and available in PWA app.
 ### PWA Demo
 
 ![Demo](./src/images/demos/demo.gif)
+
+---
+
+## Author
+
+- Justin Hwang
+
+---
